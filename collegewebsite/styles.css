@@ -1,0 +1,88 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: montserrat, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  color: #f9f9f9;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('college.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f9f9f9 ;
+  padding: 14px 20px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+}
+
+
+.hero {
+  background-color: white;
+  color: #062FF9;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.about, .content {
+  padding: 2rem;
+  text-align: center;
+  background-color: #062FF9;
+  color: white;
+}
+
+.about h2, .content h2 {
+  margin-bottom: 1rem;
+  background-color: #062FF9;
+  color: white;
+}
+
+footer {
+  background-color: #062FF9;
+  color: #F3FB1A;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
